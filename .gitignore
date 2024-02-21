@@ -1,0 +1,6 @@
+# Downloaded utilities for content transformation
+yq
+jq
+.DS_Store
+# The directory for converter and validator tool
+build/oscal-cli/
