@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0" 
+    uuid="2487e277-e451-4c5a-acd3-90af39f4aaf6">
+    <metadata>
+        <title>Sample EUCS High Profile</title>
+        <last-modified>2024-02-26T04:00:59.822359Z</last-modified>
+        <version>1.0</version>
+        <oscal-version>1.1.2</oscal-version>
+        <prop name="resolution-tool" value="libOSCAL-Java" />
+        <link
+            href="./sample2-high_profile.xml"
+            rel="source-profile" />
+    </metadata>
+    <control id="eucs-04.ois-01.1h" class="requirements">
+        <title>OIS-01.1H</title>
+        <prop name="alt-identifier" value="OIS-01.1H" class="high" />
+        <part id="eucs-04.ois-01.1h_stmt" name="statement">
+            <p>The CSP shall document the scope of the cloud service that is under the CSP’s control
+                and the boundaries.</p>
+        </part>
+    </control>
+    <control id="eucs-04.ois-01.2h" class="requirements">
+        <title>OIS-01.2H</title>
+        <prop name="alt-identifier" value="OIS-01.2H" class="high" />
+        <part id="eucs-04.ois-01.2h_stmt" name="statement">
+            <p>The CSP shall have an information security management system (ISMS), covering at
+                least the operational units, locations, people and processes for providing the cloud
+                service.</p>
+        </part>
+    </control>
+    <control id="eucs-04.ois-01.3h" class="requirements">
+        <title>OIS-01.3H</title>
+        <prop name="alt-identifier" value="OIS-01.3H" class="high" />
+        <part id="eucs-04.ois-01.3h_stmt" name="statement">
+            <p>The CSP shall provide documented information about the ISMS as applied to the cloud
+                service, covering what is applicable to the cloud service regarding:</p>
+            <p>
+                <em>Scope and boundaries of the ISMS;</em>
+            </p>
+            <p>The context of the CSP;</p>
+            <p>Description of how the cloud service is covered by activities in the ISMS; and</p>
+            <p>How the security of the cloud service is maintained and improved</p>
+        </part>
+    </control>
+</catalog>
