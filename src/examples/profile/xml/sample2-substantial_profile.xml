@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model schematypens="http://www.w3.org/2001/XMLSchema" type="application/xml" href="https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_complete_schema.xsd"?>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+   uuid="6a917bb8-b705-4b60-bcf9-6f10bdf24d3b">
+   <metadata>
+      <title>Sample EUCS Substantial Profile</title>
+      <last-modified>2024-02-25T15:25:00.000000-04:00</last-modified>
+      <version>1.0</version>
+      <oscal-version>1.1.2</oscal-version>
+      <prop name="keywords"
+         value="cybersecurity, information security, information system, OSCAL, Open Security Controls Assessment Language" />
+      <role id="publisher">
+         <title>Source document converter to OSCAL.</title>
+      </role>
+      <role id="author">
+         <title>Source document author.</title>
+      </role>
+      <role id="contact">
+         <title>Contact.</title>
+      </role>
+      <party type="organization" uuid="f550d94e-0f01-415f-a1e2-c8188c9ff4a5">
+         <name>ENISA</name>
+         <email-address>name@domain.eu</email-address>
+         <address>
+            <addr-line>ENISA</addr-line>
+            <addr-line>Attn: Somebody</addr-line>
+            <addr-line>1 Some Street</addr-line>
+            <city>City</city>
+            <country>EU</country>
+         </address>
+      </party>
+      <responsible-party role-id="publisher">
+         <party-uuid>f550d94e-0f01-415f-a1e2-c8188c9ff4a5</party-uuid>
+      </responsible-party>
+      <responsible-party role-id="author">
+         <party-uuid>f550d94e-0f01-415f-a1e2-c8188c9ff4a5</party-uuid>
+      </responsible-party>
+      <responsible-party role-id="contact">
+         <party-uuid>f550d94e-0f01-415f-a1e2-c8188c9ff4a5</party-uuid>
+      </responsible-party>
+      <remarks>
+         <p>The following is a short excerpt from <em>EUCS</em> Catalog. This work is provided here under
+            copyright <q>fair use</q> for non-profit, educational purposes only. Copyrights for this
+            work are held by the publisher.</p>
+      </remarks>
+   </metadata>
+   <import href="#9510e179-7744-4afa-a9d3-92beadffd85f">
+      <include-controls>
+         <matching pattern="eucs-04.ois-*s"/>
+      </include-controls>
+   </import>
+   <merge>
+      <as-is>true</as-is>
+   </merge>
+   <back-matter>
+      <resource uuid="9510e179-7744-4afa-a9d3-92beadffd85f">
+         <description>
+            <p>EUCS Information of Information Security Sample</p>
+         </description>
+         <rlink media-type="application/oscal.catalog+xml"
+            href="../../catalog/xml/sample2-catalog.xml" />
+      </resource>
+   </back-matter>
+</profile>

@@ -12,13 +12,13 @@
          value="cybersecurity, information security, information system, OSCAL, Open Security Controls Assessment Language" />
       <link rel="alternate" href="3ab41d8a-66e3-4732-ae28-07405dad5127" />
       <role id="publisher">
-         <title>Document converter to OSCAL</title>
+         <title>Source document converter to OSCAL.</title>
       </role>
       <role id="author">
-         <title>Document content author</title>
+         <title>Source document author.</title>
       </role>
       <role id="contact">
-         <title>Contact</title>
+         <title>Contact.</title>
       </role>
       <party type="organization" uuid="f550d94e-0f01-415f-a1e2-c8188c9ff4a5">
          <name>ENISA</name>
@@ -41,7 +41,7 @@
          <party-uuid>f550d94e-0f01-415f-a1e2-c8188c9ff4a5</party-uuid>
       </responsible-party>
       <remarks>
-         <p>The following is a short excerpt from <em>EUCS</em>. This work is provided here under
+         <p>The following is a short excerpt from <em>EUCS</em> Catalog. This work is provided here under
             copyright <q>fair use</q> for non-profit, educational purposes only. Copyrights for this
             work are held by the publisher.</p>
       </remarks>
@@ -82,18 +82,18 @@
                <p>Description of how the cloud service is covered by activities in the ISMS; and </p>
                <p>How the security of the cloud service is maintained and improved</p>
             </part>
-            <part name="item" class="substancial" id="eucs-04.ois-01_req.01s">
+            <part name="item" class="substantial" id="eucs-04.ois-01_req.01s">
                <prop name="alt-identifier" value="OIS-01.1S" />
                <p>The CSP shall document the scope of the cloud service that is under the CSP’s
                   control and the boundaries.</p>
             </part>
-            <part name="item" class="substancial" id="eucs-04.ois-01_req.02s">
+            <part name="item" class="substantial" id="eucs-04.ois-01_req.02s">
                <prop name="alt-identifier" value="OIS-01.2S" />
                <p>The CSP shall have an information security management system (ISMS), covering at
                   least the operational units, locations, people and processes for providing the
                   cloud service.</p>
             </part>
-            <part name="item" class="substancial" id="eucs-04.ois-01_req.03s">
+            <part name="item" class="substantial" id="eucs-04.ois-01_req.03s">
                <prop name="alt-identifier" value="OIS-01.3S" />
                <p>The CSP shall provide documented information about the ISMS as applied to the
                   cloud service, covering what is applicable to the cloud service regarding:</p>
@@ -128,7 +128,7 @@
    <back-matter>
       <resource uuid="3ab41d8a-66e3-4732-ae28-07405dad5127">
          <title>EUCS prCEN/TS (PDF)</title>
-         <rlink media-type="application/pdf" href="https://enisa.eu/eucs.pdf"/>
+         <rlink media-type="application/pdf" href="https://enisa.europa.eu/publications/eucs.pdf"/>
      </resource>
    </back-matter>
 </catalog>
