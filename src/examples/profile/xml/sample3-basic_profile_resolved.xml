@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="7ffcb558-0f59-4eff-8a84-349a9716f930">
+    <metadata>
+        <title>Sample EUCS Basic Profile</title>
+        <last-modified>2024-05-22T03:56:48.719731Z</last-modified>
+        <version>1.0</version>
+        <oscal-version>1.1.2</oscal-version>
+        <prop name="resolution-tool" value="libOSCAL-Java" />
+        <link
+            href="file:///Users/miorga/Desktop/ALL_PROJECTS/GH/EUCS/src/examples/profile/xml/sample3-basic_profile.xml"
+            rel="source-profile" />
+    </metadata>
+    <group id="eucs-04">
+        <title>Organization of Information Security</title>
+        <prop name="label" value="4." />
+        <group id="eucs-04.ois-01">
+            <title>OIS-01 Information Security Management System</title>
+            <prop name="label" value="1." />
+            <control id="eucs-04.ois-01.1" class="objective">
+                <title>Objective</title>
+                <prop name="label" value="1." />
+                <part id="eucs-04.ois-01.1_stmt" name="statement">
+                    <prop name="label" value="1." />
+                    <p>The CSP operates an Information Security Management System (ISMS). The scope
+                        of the ISMS covers the CSP's organisational units, locations and processes
+                        for providing the cloud service.</p>
+                </part>
+                <part id="eucs-04.ois-01.2_stmt" name="statement">
+                    <title>Requirements</title>
+                    <prop name="label" value="2." />
+                </part>
+                <control id="eucs-04.ois-01.1b" class="requirements">
+                    <title>OIS-01.1B</title>
+                    <prop name="alt-identifier" value="OIS-01.1B" class="basic" />
+                    <part id="eucs-04.ois-01.1b_stmt" name="statement">
+                        <p>The CSP shall document the scope of the cloud service that is under the
+                            CSP’s control and the boundaries.</p>
+                    </part>
+                </control>
+                <control id="eucs-04.ois-01.2b" class="requirements">
+                    <title>OIS-01.2B</title>
+                    <prop name="alt-identifier" value="OIS-01.2B" class="basic" />
+                    <part id="eucs-04.ois-01.2b_stmt" name="statement">
+                        <p>The CSP shall have an information security management system (ISMS),
+                            covering at least the operational units, locations, people and processes
+                            for providing the cloud service.</p>
+                    </part>
+                </control>
+                <control id="eucs-04.ois-01.3b" class="requirements">
+                    <title>OIS-01.3B</title>
+                    <prop name="alt-identifier" value="OIS-01.3B" class="basic" />
+                    <part id="eucs-04.ois-01.3b_stmt" name="statement">
+                        <p>The CSP shall provide documented information about the ISMS as applied to
+                            the cloud service, covering what is applicable to the cloud service
+                            regarding:</p>
+                        <p>Scope and boundaries of the ISMS;</p>
+                        <p>The context of the CSP;</p>
+                        <p>Description of how the cloud service is covered by activities in the
+                            ISMS; and</p>
+                        <p>How the security of the cloud service is maintained and improved</p>
+                    </part>
+                </control>
+            </control>
+        </group>
+    </group>
+</catalog>

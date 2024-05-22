@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model schematypens="http://www.w3.org/2001/XMLSchema" type="application/xml" href="https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_complete_schema.xsd"?>
 <profile xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-   uuid="6a917bb8-b705-4b60-bcf9-6f10bdf24d3a">
+   uuid="4d3b7bb8-b705-4b60-bcf9-6f10bdf26a91">
    <metadata>
-      <title>Sample EUCS Basic Profile</title>
-      <last-modified>2024-02-25T15:25:00.000000-04:00</last-modified>
+      <title>Sample EUCS Substantial Profile</title>
+      <last-modified>2024-05-21T15:25:00.000000-04:00</last-modified>
       <version>1.0</version>
       <oscal-version>1.1.2</oscal-version>
       <prop name="keywords"
@@ -44,21 +44,25 @@
             work are held by the publisher.</p>
       </remarks>
    </metadata>
-   <import href="#9510e179-7744-4afa-a9d3-92beadffd85f">
+   <import href="#d85fe179-7744-4afa-a9d3-92beadff9510">
       <include-controls>
-         <matching pattern="eucs-04.ois-*b"/>
+         <with-id>eucs-04.ois-01.1</with-id>
+         <with-id>eucs-04.ois-01.1s</with-id>
+         <with-id>eucs-04.ois-01.2s</with-id>
+         <with-id>eucs-04.ois-01.3s</with-id>
+         <!-- matching pattern="eucs-04.ois-*s"/ -->
       </include-controls>
    </import>
    <merge>
       <as-is>true</as-is>
    </merge>
    <back-matter>
-      <resource uuid="9510e179-7744-4afa-a9d3-92beadffd85f">
+      <resource uuid="d85fe179-7744-4afa-a9d3-92beadff9510">
          <description>
             <p>EUCS Information of Information Security Sample</p>
          </description>
          <rlink media-type="application/oscal.catalog+xml"
-            href="../../catalog/xml/sample2-catalog.xml" />
+            href="../../catalog/xml/sample3-catalog.xml" />
       </resource>
    </back-matter>
 </profile>
